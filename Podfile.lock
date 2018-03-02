@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Alamofire-Synchronous (4.0.0):
+    - Alamofire (~> 4.0)
+  - SwiftyJSON (4.0.0)
+  - TraceLog (2.1.0):
+    - TraceLog/Swift (= 2.1.0)
+  - TraceLog/Swift (2.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Alamofire-Synchronous (~> 4.0)
+  - SwiftyJSON
+  - TraceLog
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Alamofire-Synchronous: eedf1e6e961c3795a63c74990b3f7d9fbfac7e50
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  TraceLog: 0d0700cc6cbe4b1138410a6a29440f5b5801d218
+
+PODFILE CHECKSUM: 8c1ff041ceb3200c61cc6b7386605b6d857cc9d0
+
+COCOAPODS: 1.4.0
