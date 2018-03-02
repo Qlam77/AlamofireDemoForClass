@@ -37,6 +37,9 @@ class JsonController
                         //Do your functions
                         var arrayItems = [String]()
                         
+                        //Prints the json object
+                        self.printJson()
+                        
                         //Add your custom array
                         arrayItems = self.extractColumn(topCategory: "features", innerCategory: "properties", innerInnerCategory: "Name")
                         
