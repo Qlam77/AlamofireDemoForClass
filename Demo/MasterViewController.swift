@@ -34,7 +34,7 @@ class MasterViewController: UITableViewController {
         jsonController.loadAsAsync(tableView: self)
         
         //Sync
-        jsonController.loadAsSync()
+        //jsonController.loadAsSync()
         /*let itemsArray = jsonController.extractColumn(topCategory: "features", innerCategory: "properties", innerInnerCategory: "Name")
         insertArray(Data: itemsArray)*/
     }

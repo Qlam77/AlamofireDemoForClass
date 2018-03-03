@@ -37,8 +37,19 @@ class JsonController
                         //Do your functions
                         var arrayItems = [String]()
                         
+
+                        
+                        
                         //Prints the json object
                         self.printJson()
+                        
+                        //Print single item in the JSON file.
+                        
+                        //Print the upper most category with key "Type"
+                        print(self.jsonObject["type"].stringValue)
+                        
+                        //"Features" is an array, that has a key called "Properties" and "Name" nested inside it.
+                        print(self.jsonObject["features"][0]["properties"]["Name"].stringValue)
                         
                         //Add your custom array
                         arrayItems = self.extractColumn(topCategory: "features", innerCategory: "properties", innerInnerCategory: "Name")
